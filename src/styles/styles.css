@@ -1,0 +1,16 @@
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: #AFEEEE	;
+    align-items: center;
+    padding: 15px;
+}
+
+.button {
+    text-decoration:none;
+}
+
+.displayName{
+    padding-right: 5%;
+}

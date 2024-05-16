@@ -26,7 +26,7 @@ function Create() {
     
     if (error) {
       console.log(error);
-      alert(error);
+      alert("error");
     }else {
       
       navigate("/");
@@ -62,7 +62,7 @@ function Create() {
           placeholder="Enter the Amount"
           onChange={(e) => setRating(parseInt(e.target.value))}
           required
-          value={amount}
+          // value={amount}
         />
         <button type="submit">Submit</button>
       </form>
